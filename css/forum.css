@@ -1,0 +1,80 @@
+#forum {
+    background: url("../images/suggestion.jpg")no-repeat center center;
+    height: 300px;
+    opacity: 0.9;
+}
+#sub {
+    background-color: #333333;
+    margin-bottom: 20px;
+}
+#sub h2{
+    text-transform: uppercase;
+    color:#888;
+}
+#subnav{
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+#subnav li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#subnav a{
+    text-decoration: none;
+    color:#888;
+}
+
+#subnav li.current a, #subnav a:hover{
+    color:cadetblue;
+    border-bottom: 3px solid cadetblue;
+    padding-bottom: 3px;
+}
+.container h2{
+    color: cadetblue;
+    font-size: 40px;
+}
+.container .thead-light th{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 25px;
+}
+.container tbody td .name{
+    font-size: 16px;
+    color: #888888;
+    font-style: italic;
+}
+.table a:hover{
+    text-decoration: none;
+
+}
+button.view {
+    background:none!important;
+    color:#007bff;
+    border:none;
+    padding:0!important;
+    font: inherit;
+    /*border is optional*/
+    border-bottom:1px solid #444;
+    cursor: pointer;
+}
+.hidden{
+    visibility: hidden;
+}
+.view_post {
+    background-color:white ;
+    border: none;
+    color: royalblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+}
+.forum-col{
+    min-width: 16em;
+}
+.last-post-col{
+    min-width: 12em;
+}

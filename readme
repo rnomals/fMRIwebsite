@@ -1,0 +1,6 @@
+user_id         primary key
+name
+email
+cnfrm_doc
+username
+password

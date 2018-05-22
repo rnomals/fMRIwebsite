@@ -1,0 +1,29 @@
+body{
+    background-image: url("../images/wallpaper.jpg");
+    font-family: 'Open-sans', sans-serif;
+
+}
+
+.form {
+    background: #333333;
+    width:50%;
+    position: relative;
+    left:300px;
+    top:200px;
+    font-size: 35px;
+    color: #ffffff;
+    opacity: 0.9;
+    height: 500px;
+    text-align: center;
+}
+
+.form h1 h2{
+    color: cadetblue;
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+
+.form btn{
+    width:200px;
+}

@@ -1,0 +1,54 @@
+body {
+    overflow-y: scroll;
+}
+
+#subheader h2{
+    color: white;
+    background-color: #1b6d85;
+    padding:20px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+#page .btn-group-lg button{
+    margin-right: 20px;
+    background-color: #888888;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#page .btn-group-lg button:hover{
+    background-color: #cccccc;
+    outline: none;
+}
+#page .btn-group-lg button:focus{
+    background-color: #1b6d85;
+    outline: none;
+}
+#page .btn-group-lg {
+    padding-bottom: 20px;
+
+}
+#pages {
+    background-color: whitesmoke;
+}
+#pages .mydivshow{
+    padding: 20px;
+}
+
+#comparison h2 {
+    font-size: 25px;
+    color:cadetblue;
+
+}
+
+#comparison .modal-content {
+    height: 450px;
+    width:800px;
+}
+
+
+#comparison .modal-body .form-control option{
+    padding: 20px;
+}
